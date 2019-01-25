@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JavaLoginApp:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaLoginApp_war</output-path>
+    <root id="archive" name="JavaLoginApp_war.war">
+      <element id="artifact" artifact-name="JavaLoginApp:war exploded" />
+    </root>
+  </artifact>
+</component>
