@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="PostgreSQL - postgres@localhost">
+<dataSource name="db1@localhost">
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.14">
     <root id="1">
       <ServerVersion>10.6</ServerVersion>
@@ -9,6 +9,7 @@
       <StateNumber>563</StateNumber>
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>505</IntrospectionStateNumber>
+      <Current>1</Current>
       <Visible>1</Visible>
     </database>
     <database id="3" parent="1" name="javaloginAppDatabase">
@@ -31,8 +32,6 @@
       <Comment>default administrative connection database</Comment>
       <StateNumber>553</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>505</IntrospectionStateNumber>
-      <Current>1</Current>
     </database>
     <role id="7" parent="1" name="javaloginAppUser">
       <ObjectId>16390</ObjectId>
@@ -129,7 +128,9 @@
       <Comment>standard public schema</Comment>
       <StateNumber>351</StateNumber>
       <Owner>postgres</Owner>
+      <IntrospectionTimestamp>2019-01-25.23:08:16.428</IntrospectionTimestamp>
       <Current>1</Current>
+      <Visible>1</Visible>
     </schema>
     <access-method id="23" parent="2" name="btree">
       <ObjectId>403</ObjectId>
