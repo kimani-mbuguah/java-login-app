@@ -15,11 +15,13 @@ Admin's Page
 Student's Page
 
 ![](3.png)
-## Installation
+
 
 Invalidate Sessions
 
 ![](4.png)
+
+## Installation
 
 Windows, OS X & Linux:
 
@@ -31,7 +33,7 @@ run on any development/production server
 ## Release History
 
 * 1.0
-    * CHANGE: User Interface design
+    * CHANGE: Simple java role based login system
 
 ## Meta
 

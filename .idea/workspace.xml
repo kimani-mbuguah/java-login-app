@@ -7,27 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2911fba1-5cfd-4a9b-9ca1-8b0f88d67df4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0bb68ac4-0da6-4f6a-bcc3-b28db45c178d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0bb68ac4-0da6-4f6a-bcc3-b28db45c178d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/377c4dc4-ef36-4434-bbbe-fd091625f754.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4fd558c3-74a8-446e-a299-53809e1e0e50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/WEB-INF/classes/com/login/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/WEB-INF/classes/com/login/controller/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/WEB-INF/classes/com/login/controller/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/WEB-INF/classes/com/login/controller/LogoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/WEB-INF/classes/com/login/util/CreateUsersTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/WEB-INF/classes/com/login/util/CreateUsersTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/WEB-INF/classes/com/login/util/InsertAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/WEB-INF/classes/com/login/util/InsertAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/WEB-INF/classes/com/login/val/LoginVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/WEB-INF/classes/com/login/val/LoginVal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaLoginApp_war_exploded/student.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLoginApp/com/login/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLoginApp/com/login/controller/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLoginApp/com/login/controller/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLoginApp/com/login/controller/LogoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLoginApp/com/login/util/CreateUsersTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLoginApp/com/login/util/CreateUsersTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLoginApp/com/login/util/InsertAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLoginApp/com/login/util/InsertAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLoginApp/com/login/val/LoginVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLoginApp/com/login/val/LoginVal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/login/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/login/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/login/controller/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/login/controller/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/login/util/CreateUsersTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/login/util/CreateUsersTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/login/util/InsertAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/login/util/InsertAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/login/val/LoginVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/login/val/LoginVal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/login/controller/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="36" column="98" selection-start-line="36" selection-start-column="98" selection-end-line="36" selection-end-column="98" />
+            <state relative-caret-position="285">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/login/val/LoginVal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +70,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <first_editor relative-caret-position="179">
+                <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               </first_editor>
               <second_editor />
             </state>
@@ -101,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/login/util/InsertAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="152">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -300,7 +280,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548539183881" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548540240224" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/servlet-api.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -446,12 +426,12 @@
       <updated>1548426670926</updated>
       <workItem from="1548426673035" duration="22184000" />
       <workItem from="1548494860110" duration="25050000" />
-      <workItem from="1548534748265" duration="4967000" />
+      <workItem from="1548534748265" duration="5312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52201000" />
+    <option name="totallyTimeSpent" value="52546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="25" width="1327" height="743" extended-state="6" />
@@ -473,7 +453,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30781758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30781758" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
@@ -597,10 +577,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/login/controller/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/login/controller/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/login/val/LoginVal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/login/util/InsertAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="152">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -614,41 +624,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/login/controller/LogoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/login/controller/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="36" column="98" selection-start-line="36" selection-start-column="98" selection-end-line="36" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/login/val/LoginVal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <first_editor relative-caret-position="179">
+            <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
           </first_editor>
           <second_editor />
         </state>
