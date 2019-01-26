@@ -34,40 +34,28 @@ public class LoginServlet extends HttpServlet {
         try {
             String userValidate = loginVal.authenticateUser(getterSetter);
 
-            if(userValidate.equals("Admin"))
-            {
-                System.out.println("Admin's Home");
+            if(userValidate.equals("Student")) {
                 HttpSession session = request.getSession(); //Creating a session
                 session.setAttribute("Admin", email); //setting session attribute
                 request.setAttribute("userName", email);
-
-                request.getRequestDispatcher("admin.jsp").forward(request, response);
-            }
-
-            else if(userValidate.equals("Student"))
-            {
-                System.out.println("Student's Home");
-                HttpSession session = request.getSession();
-                session.setAttribute("User", email);
-                request.setAttribute("userName", email);
-
                 request.getRequestDispatcher("student.jsp").forward(request, response);
-            }
-            else
-            {
-                System.out.println("Error message = "+userValidate);
+            }else if(userValidate.equals("Admin")) {
+                HttpSession session = request.getSession(); //Creating a session
+                session.setAttribute("Admin", email); //setting session attribute
+                request.setAttribute("userName", email);
+                request.getRequestDispatcher("admin.jsp").forward(request, response);
+            }else  {
+                System.out.println("Error message = " + userValidate);
                 request.setAttribute("errMessage", userValidate);
                 request.getRequestDispatcher("index.jsp").forward(request, response);
             }
 
-        }catch (IOException e1)
-        {
+        }catch (IOException e1) {
             e1.printStackTrace();
         }
-        catch (Exception e2)
-        {
+        catch (Exception e2) {
             e2.printStackTrace();
         }
     }
-    }
+}
 

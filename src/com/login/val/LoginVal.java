@@ -17,10 +17,18 @@ public class LoginVal {
         Statement statement = null;
         ResultSet resultSet = null;
 
-        String emailInDB = "";
-        String passwordInDB = "";
-        String roleInDB = "";
+        String emailInDB = "kimanimbuguah@gmail.com";
+        String passwordInDB = "127.0.0.1";
+        String roleInDB = "Student";
 
+        if(email.equals(emailInDB) && password.equals(passwordInDB) && roleInDB.equals("Admin")) {
+            return "Admin";
+        }
+        else if(email.equals(emailInDB) && password.equals(passwordInDB) && roleInDB.equals("Student")){
+            return "Student";
+        }else {
+            return "Invalid credentials";
+        }
 
 
 //        try {
@@ -44,6 +52,5 @@ public class LoginVal {
 //        {
 //            e.printStackTrace();
 //        }
-        return "Student";
     }
 }
