@@ -20,6 +20,7 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        //get input from the form
         String password = request.getParameter("password");
         String email = request.getParameter("email");
 
@@ -33,18 +34,21 @@ public class LoginServlet extends HttpServlet {
 
         try {
             String userValidate = loginVal.authenticateUser(getterSetter);
-
+            //get the role of the user from the database and redirect them to the appropriate page
             if(userValidate.equals("Student")) {
-                HttpSession session = request.getSession(); //Creating a session
-                session.setAttribute("Admin", email); //setting session attribute
+                //create a session and set session attribute
+                HttpSession session = request.getSession();
+                session.setAttribute("Admin", email);
                 request.setAttribute("userName", email);
                 request.getRequestDispatcher("student.jsp").forward(request, response);
             }else if(userValidate.equals("Admin")) {
-                HttpSession session = request.getSession(); //Creating a session
-                session.setAttribute("Admin", email); //setting session attribute
+                HttpSession session = request.getSession();
+                session.setAttribute("Admin", email);
                 request.setAttribute("userName", email);
                 request.getRequestDispatcher("admin.jsp").forward(request, response);
             }else  {
+
+                //executed when credentials don't match or there is an error creating sessions
                 System.out.println("Error message = " + userValidate);
                 request.setAttribute("errMessage", userValidate);
                 request.getRequestDispatcher("index.jsp").forward(request, response);

@@ -19,8 +19,9 @@ public class LogoutServlet extends HttpServlet
 
         if(session!=null)
         {
+            //invalidate all sessions and redirect user to the login page
             session.invalidate();
-            request.setAttribute("errMessage", "Session Terminated successfully");
+            request.setAttribute("errMessage", "Session Terminated Successfully");
             RequestDispatcher requestDispatcher = request.getRequestDispatcher("index.jsp");
             requestDispatcher.forward(request, response);
             System.out.println("Logged out");
