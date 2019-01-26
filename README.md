@@ -19,7 +19,7 @@ Student's Page
 
 Invalidate Sessions
 
-![](4.png)
+![](5.png)
 
 ## Installation
 
