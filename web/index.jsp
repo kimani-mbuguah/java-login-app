@@ -28,12 +28,12 @@
   <div class="limiter">
     <div class="container-login100">
       <div class="wrap-login100">
-        <form class="login100-form validate-form" method="post" action="<%=request.getContextPath()%>/LoginServlet">
+        <form class="login100-form" method="post" action="<%=request.getContextPath()%>/LoginServlet">
           <span class="login100-form-title p-b-26">
             Welcome To My App
           </span>
           <div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
-            <input class="input100" type="text" name="username">
+            <input class="input100" type="text" name="email">
             <span class="focus-input100" data-placeholder="Email"></span>
           </div>
           <div class="wrap-input100 validate-input" data-validate="Enter password">

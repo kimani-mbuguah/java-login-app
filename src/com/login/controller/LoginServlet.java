@@ -18,40 +18,44 @@ public class LoginServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String userName = request.getParameter("username");
+
         String password = request.getParameter("password");
+        String email = request.getParameter("email");
+
+        System.out.println(email+password);
 
         GetterSetter getterSetter =  new GetterSetter();
 
-        getterSetter.setUserName(userName);
+        getterSetter.setEmail(email);
         getterSetter.setPassword(password);
+
 
         LoginVal loginVal = new LoginVal();
 
         try {
             String userValidate = loginVal.authenticateUser(getterSetter);
 
-            if(userValidate.equals("Admin_Role"))
+            if(userValidate.equals("Admin"))
             {
                 System.out.println("Admin's Home");
 
                 HttpSession session = request.getSession(); //Creating a session
-                session.setAttribute("Admin", userName); //setting session attribute
-                request.setAttribute("userName", userName);
+                session.setAttribute("Admin", email); //setting session attribute
+                request.setAttribute("userName", email);
 
-                //request.getRequestDispatcher("admin.jsp").forward(request, response);
+                request.getRequestDispatcher("admin.jsp").forward(request, response);
             }
 
-            else if(userValidate.equals("User_Role"))
+            else if(userValidate.equals("Student"))
             {
-                System.out.println("User's Home");
+                System.out.println("Student's Home");
 
                 HttpSession session = request.getSession();
                 session.setMaxInactiveInterval(10*60);
-                session.setAttribute("User", userName);
-                request.setAttribute("userName", userName);
+                session.setAttribute("User", email);
+                request.setAttribute("userName", email);
 
-                //request.getRequestDispatcher("user.jsp").forward(request, response);
+                request.getRequestDispatcher("student.jsp").forward(request, response);
             }
             else
             {

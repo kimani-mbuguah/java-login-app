@@ -14,7 +14,6 @@ public class DBConnection {
             try
             {
                 Class.forName("org.postgresql.Driver");
-                //Class.forName("com.mysql.jdbc.Driver");
             }
             catch (ClassNotFoundException e)
             {
