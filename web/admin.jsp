@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
     <title>Admin Page</title>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -34,13 +34,14 @@
 <body>
 <div class="limiter">
     <div class="container-login100">
-        <div class="wrap-login100">
+        <div class="wrap-home90">
             <span class="login100-form-title p-b-26">
-            Admin's Page
-          </span>
-          <span class="login100-form-title p-b-26">
-            Welcome <%=request.getAttribute("userName") %>
-          </span>
+                Admin's Page
+            </span>
+            <span class="login100-form-title p-b-26">
+                Welcome <%=request.getAttribute("userName") %>
+            </span>
+            <span class="login100-form-title" style="color:red"><a href="<%=request.getContextPath()%>/LogoutServlet">Logout</a></span>
         </div>
     </div>
 </div>

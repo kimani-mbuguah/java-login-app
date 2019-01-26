@@ -21,27 +21,29 @@ public class LoginVal {
         String passwordInDB = "";
         String roleInDB = "";
 
-        try {
-            con = DBConnection.createConnection();
-            statement = con.createStatement();
-            resultSet = statement.executeQuery("select email,password,role from users");
 
-            while(resultSet.next())
-            {
-                emailInDB = resultSet.getString("email");
-                passwordInDB = resultSet.getString("password");
-                roleInDB = resultSet.getString("role");
 
-                if(email.equals(emailInDB) && password.equals(passwordInDB) && roleInDB.equals("Admin"))
-                    return "Admin";
-                else if(email.equals(emailInDB) && password.equals(passwordInDB) && roleInDB.equals("Student"))
-                    return "Student";
-            }
-        }
-        catch(SQLException e)
-        {
-            e.printStackTrace();
-        }
-        return "Invalid credentials";
+//        try {
+//            con = DBConnection.createConnection();
+//            statement = con.createStatement();
+//            resultSet = statement.executeQuery("select email,password,role from users");
+//
+//            while(resultSet.next())
+//            {
+//                emailInDB = resultSet.getString("email");
+//                passwordInDB = resultSet.getString("password");
+//                roleInDB = resultSet.getString("role");
+//
+//                if(email.equals(emailInDB) && password.equals(passwordInDB) && roleInDB.equals("Admin"))
+//                    return "Admin";
+//                else if(email.equals(emailInDB) && password.equals(passwordInDB) && roleInDB.equals("Student"))
+//                    return "Student";
+//            }
+//        }
+//        catch(SQLException e)
+//        {
+//            e.printStackTrace();
+//        }
+        return "Student";
     }
 }

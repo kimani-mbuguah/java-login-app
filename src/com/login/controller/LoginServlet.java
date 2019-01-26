@@ -17,20 +17,19 @@ public class LoginServlet extends HttpServlet {
     public LoginServlet() {
     }
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String password = request.getParameter("password");
         String email = request.getParameter("email");
-
-        System.out.println(email+password);
 
         GetterSetter getterSetter =  new GetterSetter();
 
         getterSetter.setEmail(email);
         getterSetter.setPassword(password);
 
-
         LoginVal loginVal = new LoginVal();
+
 
         try {
             String userValidate = loginVal.authenticateUser(getterSetter);
@@ -38,7 +37,6 @@ public class LoginServlet extends HttpServlet {
             if(userValidate.equals("Admin"))
             {
                 System.out.println("Admin's Home");
-
                 HttpSession session = request.getSession(); //Creating a session
                 session.setAttribute("Admin", email); //setting session attribute
                 request.setAttribute("userName", email);
@@ -49,9 +47,7 @@ public class LoginServlet extends HttpServlet {
             else if(userValidate.equals("Student"))
             {
                 System.out.println("Student's Home");
-
                 HttpSession session = request.getSession();
-                session.setMaxInactiveInterval(10*60);
                 session.setAttribute("User", email);
                 request.setAttribute("userName", email);
 
@@ -61,11 +57,10 @@ public class LoginServlet extends HttpServlet {
             {
                 System.out.println("Error message = "+userValidate);
                 request.setAttribute("errMessage", userValidate);
-
                 request.getRequestDispatcher("index.jsp").forward(request, response);
             }
-        }
-        catch (IOException e1)
+
+        }catch (IOException e1)
         {
             e1.printStackTrace();
         }
@@ -74,4 +69,5 @@ public class LoginServlet extends HttpServlet {
             e2.printStackTrace();
         }
     }
-}
+    }
+

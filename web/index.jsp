@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
   <title>Java Login App</title>
-  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
   <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
   <div class="limiter">
     <div class="container-login100">
       <div class="wrap-login100">
-        <form class="login100-form" method="post" action="<%=request.getContextPath()%>/LoginServlet">
+        <form class="login100-form" method="get" action="<%=request.getContextPath()%>/LoginServlet" enctype="multipart/form-data">
           <span class="login100-form-title p-b-26">
             Welcome To My App
           </span>
@@ -53,6 +53,7 @@
             </div>
           </div>
         </form>
+        <span class="login100-form-title" style="color:red"><%=(request.getAttribute("errMessage") == null) ? "" : request.getAttribute("errMessage")%></span>
       </div>
     </div>
   </div>
