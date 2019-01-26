@@ -14,7 +14,7 @@ Admin's Page
 
 Student's Page
 
-![](3.png)
+![](6.png)
 
 
 Invalidate Sessions
