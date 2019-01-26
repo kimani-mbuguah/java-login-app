@@ -35,8 +35,6 @@ run on any development/production server
 * 1.0
     * CHANGE: Simple java role based login system
 
-## Meta
+## Author
 
 Kimani Mbugua – kimanimbuguah@gmail.com
-
-[https://github.com/kimani-mbuguah/proxi](https://github.com/kimani-mbuguah/)
